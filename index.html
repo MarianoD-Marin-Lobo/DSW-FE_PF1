@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="icon" href="src/images/mdm_program-circular-logo.svg">    
+    <title>Mariano-DML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bodyContainer">
+        <img class="headerItem" id="portfolioLogo" src="src/images/mdm_program-circular-logo.png" alt="Mariano-DML_Circular-Logo">
+        <h1 class="headerItem" id="portfolioMainTitle">MARIANO DANIEL MARIN LOBO</h1>
+        <H2 class="headerItem" id="portfolioSlogan">Estudiando desarrollo de software para potenciar mi carrera.</H2>
+    </header>
+
+    <nav class="bodyContainer">
+        <a href="">SOBRE MI</a>
+        <a href="">PROYECTOS</a>
+        <a href="">CONTACTAME</a>
+    </nav>
+
+    
+    <main class="bodyContainer">
+        <section class="mainElement" id="mainSobreMi">
+            <h3 class="sobreMiElement" id="sobreMiTitle">Sobre mi</h3>
+            <p class="sobreMiElement" id="sobreMiDescription">Trabajo como Asesor Comercial desde hace mas de diez años y, paralelo a ello, me encuentro estudiando tanto la Tecnicatura Superior en Desarrollo de Software como, cuando dispongo de tiempo, de cursos adicionales relativos a este rubro. </p>
+            <p>
+                Mi objetivo es enriquecer  mi experiencia profesional y reorientar mi carrera laboral hacia la industria del software.
+            </p>
+        </section>
+        
+        <section class="mainElement" id="mainConocimientos">
+            <h3>Conocimientos en Tecnologías y demás herramientas</h3>
+            <table>
+                <tr>
+                    <th>Desarrollo de Software</th>
+                    <th>Otras herramientas digitales</th>
+                    <th>Próximas a estudiar</th>
+                </tr>
+                <tr>                    
+                    <td>HTML (Básico)</td>
+                    <td>M. Office Word (Avanzado)</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>CSS (Básico)</td>                  
+                    <td>M. Office Excel (Intermedio)</td>
+                    <td>Java</td>
+                </tr>
+                <tr>
+                    <td>C# (Básico)</td>
+                    <td>AutoCAD 2D/3D (Intermedio)</td>
+                    <td>Android Koltin</td>
+                </tr>
+                <tr>
+                    <td>MySQL (Básico)</td>
+                    <td>CorelDraw (Básico)</td>
+                    <td>Swift</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="mainElement" id="mainContactForm">
+            <h3>Contactanme</h3>
+            <form action="" method="post">
+                <div class="contactFormField">
+                    <label for="nombresContactForm">Nombre/s: </label>
+                    <input type="text" id="nombresContactForm" name="nombresContForm" placeholder="Ingrese aquí su/s Nombre/s">
+                </div>
+                <br>
+                <div class="contactFormField">
+                    <label for="apellidosContactForm">Apellido/s: </label>
+                    <input type="text" id="apellidosContactForm" name="apellidosContForm" placeholder="Ingrese aquí su/s Apellido/s">
+                </div>
+                <br>
+                <div class="contactFormField">
+                    <label for="emailContactForm">Email: </label>
+                    <input type="email" id="emailContactForm" name="emailContForm" placeholder="email@usuario.com/.com.ar/etc.">
+                </div>
+                <br>
+                <div class="contactFormField">
+                    <label for="telefonoContactForm">Télefono: </label>
+                    <input type="text" id="telefonoContactForm" name="telefonoContForm" placeholder="Nro-Celular sin '0' ni '15'">
+                </div>
+                <br>
+                <div class="contactFormField">
+                    <label for="preferContactForm">Prefiere que le responda: </label>
+                    <input type="radio" id="preferTelefonoContact" name="preferContactForm" value="Por TELÉFONO">
+                    <label for="preferTelefonoContact">Por TELÉFONO</label>
+                    <input type="radio" id="preferEmailContact" name="preferContactForm" value="Por EMAIL">
+                    <label for="preferEmailContact">Por EMAIL</label>
+                </div>
+                <br>
+                <div>
+                    <label for="msgContactForm">Mensaje: </label>
+                    <textarea name="messageContactForm" id="msgContactForm" placeholder="Escriba aquí su mensaje..."></textarea>
+                </div>
+                <div class="contactFormField" id="contactFormActions">
+                    <input type="reset" name="borrarContForm" id="resetContactForm" value="BORRAR">
+                    <input type="button" name="sendContForm" id="sendContactMessage" value="ENVIAR">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <aside class="bodyContainer">
+        <div class="asideField">
+            <h3 class="asideFieldTitle">Hobbies u otros intereses</h3>
+            <ul class="asideFieldContent">
+                <li>Literatura (Terror, Suspense, Policial)</li>
+                <li>Marketing y comercio</li>
+                <li>Finanzas e inversiones</li>
+                <li>Turismo histórico y gastronómico</li>
+            </ul>
+        </div>
+        <div class="asideField">
+            <h3 class="asideFieldTitle">Idiomas que hablo</h3>
+            <ul class="asideFieldContent">
+                <li>Español-Latinoamericano (Nativo)</li>
+                <li>Inglés (Intermedio)</li>
+            </ul>
+        </div>        
+    </aside>
+
+    <footer class="bodyContainer"></footer>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+:root {
+    font-size: 16px;
+    font-family: "Raleway", system-ui;
+    /* Tamaño base */
+}
+
+.bodyContainer {
+    border: 2px solid #27383C;
+    border-radius: 0.25em;
+    text-align: center;
+    margin: 0.8em;
+    padding: 0.8em;
+}
+
+
+.headeItem {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#portfolioLogo{
+    width: 7em;
+    height: 7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Raleway: CSS class for a variable style
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
