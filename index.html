@@ -12,16 +12,19 @@
 </head>
 <body>
 
-    <header class="bodyContainer">
+    <header class="bodyContainer" id="bodyHeader">
         <img class="headerItem" id="portfolioLogo" src="src/images/mdm_program-circular-logo.png" alt="Mariano-DML_Circular-Logo">
-        <h1 class="headerItem" id="portfolioMainTitle">MARIANO DANIEL MARIN LOBO</h1>
-        <H2 class="headerItem" id="portfolioSlogan">Estudiando desarrollo de software para potenciar mi carrera.</H2>
+        <div class="headerItem" id="headerTitleSlogan">
+            <h1 id="portfolioMainTitle">MARIANO DANIEL MARIN LOBO</h1>
+            <H2 id="portfolioSlogan">Estudiando desarrollo de software para potenciar mi carrera.</H2>
+        </div>
     </header>
 
-    <nav class="bodyContainer">
-        <a href="">SOBRE MI</a>
-        <a href="">PROYECTOS</a>
-        <a href="">CONTACTAME</a>
+    <nav class="bodyContainer" id="bodyNavBar">
+        <a href="" class="navBarElement">SOBRE MI</a>
+        <a href="" class="navBarElement">CONOCIMIENTOS</a>
+        <a href="" class="navBarElement">PROYECTOS</a>
+        <a href="" class="navBarElement">CONTACTAME</a>
     </nav>
 
     
@@ -96,7 +99,7 @@
                     <label for="preferEmailContact">Por EMAIL</label>
                 </div>
                 <br>
-                <div>
+                <div class="contactFormField">
                     <label for="msgContactForm">Mensaje: </label>
                     <textarea name="messageContactForm" id="msgContactForm" placeholder="Escriba aquí su mensaje..."></textarea>
                 </div>
@@ -108,7 +111,7 @@
         </section>
     </main>
 
-    <aside class="bodyContainer">
+    <aside class="bodyContainer" id="bodyAside">
         <div class="asideField">
             <h3 class="asideFieldTitle">Hobbies u otros intereses</h3>
             <ul class="asideFieldContent">

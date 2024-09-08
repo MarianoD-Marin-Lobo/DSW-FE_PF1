@@ -1,70 +1,152 @@
 :root {
     font-size: 16px;
     font-family: "Raleway", system-ui;
-    /* Tamaño base */
+}
+
+body {
+    background-color: #384E54;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .bodyContainer {
-    border: 2px solid #27383C;
-    border-radius: 0.25em;
+    margin: 1em;
+    padding: 1em;
+    max-width: 75%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#portfolioLogo {
+    width: 11em;
+    height: 11em;
+}
+
+#headerTitleSlogan {
     text-align: center;
-    margin: 0.8em;
-    padding: 0.8em;
+    border: 2px solid #366C7D;
+    border-radius: 1em;
+    background-color: #366C7D;
+    padding: 1em;
 }
 
 
-.headeItem {
+
+nav > a {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #c2d7dd;
+    border-radius: 0.75em;
+    background-color: #c2d7dd;
+    padding: 1em;
+}
+
+main {
     display: inline-block;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;    
+}
+
+main > section {
+    width: 100%;
+    background-color: #c2d7dd;
+    border: 1px solid #B4BCBF;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+aside {
+    width: 30%;
+    margin-left: 1em;
+    align-self: flex-start;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+#portfolioMainTitle, #portfolioSlogan {
+    color: #F9F9F9; 
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2.1em;
     font-weight: 800;
+    color: #000000;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 600;
+    color: #000000;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
     font-style: italic;
     text-decoration: underline;
+    color: #000000;
 }
 
-#portfolioLogo{
-    width: 7em;
-    height: 7em;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
 }
 
+th, td {
+    border: 1px solid #366C7D;
+    padding: 0.5em;
+    text-align: left;
+}
 
+th {
+    background-color: #2B4D5C;
+    color: #F9F9F9;
+}
 
+form > .contactFormField {
+    align-items: center;
+    max-width: 90%;
+}
 
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid #366C7D;
+}
 
+#contactFormActions {
+    display: flex;
+    justify-content: space-between;
+}
 
+#resetContactForm, #sendContactMessage {
+    width: 48%;
+    background-color: #366C7D;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    text-align: center;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*Raleway: CSS class for a variable style
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.raleway-<uniquifier> {
-  font-family: "Raleway", system-ui;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}*/
+footer {
+    margin-top: 1em;
+    text-align: center;
+    color: #F9F9F9;
+}
