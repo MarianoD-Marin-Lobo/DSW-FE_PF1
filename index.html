@@ -1,3 +1,4 @@
+<!-- El siguiente documento HTML y sus archivos asociados de estilo (CSS) e interacciones (JavaScript) pretenden ser un portfolio que refleje mi experiencia académica  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Se utilizaron etiquetas estructurales según convenciones de HTML5 asociadas a clase "bodyContainer para editar posteriormente su estilo en archivo CSS externo" -->
 
     <header class="bodyContainer" id="bodyHeader">
         <img class="headerItem" id="portfolioLogo" src="src/images/mdm_program-circular-logo.png" alt="Mariano-DML_Circular-Logo">
@@ -29,6 +31,7 @@
 
     
     <main class="bodyContainer">
+        <!-- Se subdividió la seccion de Main en subsecciones a fin de manipularlas posteriormente de acuerdo al tipo de elementos que contienen, notar que cada una de estas contiene un tipo distinto de elemento (<p>; <table>; <form>) -->
         <section class="mainElement" id="mainSobreMi">
             <h3 class="sobreMiElement" id="sobreMiTitle">Sobre mi</h3>
             <p class="sobreMiElement" id="sobreMiDescription">Trabajo como Asesor Comercial desde hace mas de diez años y, paralelo a ello, me encuentro estudiando tanto la Tecnicatura Superior en Desarrollo de Software como, cuando dispongo de tiempo, de cursos adicionales relativos a este rubro. </p>
@@ -69,7 +72,7 @@
         </section>
         
         <section class="mainElement" id="mainContactForm">
-            <h3>Contactanme</h3>
+            <h3>Contactame</h3>
             <form action="" method="post">
                 <div class="contactFormField">
                     <label for="nombresContactForm">Nombre/s: </label>
@@ -92,7 +95,7 @@
                 </div>
                 <br>
                 <div class="contactFormField">
-                    <label for="preferContactForm">Prefiere que le responda: </label>
+                    <label for="preferContactForm">Preferis que te responda: </label>
                     <input type="radio" id="preferTelefonoContact" name="preferContactForm" value="Por TELÉFONO">
                     <label for="preferTelefonoContact">Por TELÉFONO</label>
                     <input type="radio" id="preferEmailContact" name="preferContactForm" value="Por EMAIL">

@@ -1,3 +1,7 @@
+/* Se definen estilos para elementos del HTML */
+
+/* La paleta de colores elegida resulta satisfactoria pero la disposición de varios elementos no, se intentará resolver este punto de cara a futuras entregas */
+
 :root {
     font-size: 16px;
     font-family: "Raleway", system-ui;
@@ -52,11 +56,10 @@ main {
     display: inline-block;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;    
+    width: 75%;  
 }
 
 main > section {
-    width: 100%;
     background-color: #c2d7dd;
     border: 1px solid #B4BCBF;
     border-radius: 1em;
@@ -65,14 +68,12 @@ main > section {
 }
 
 aside {
-    width: 30%;
-    margin-left: 1em;
-    align-self: flex-start;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
     font-style: italic;
     background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 0.75em;
+    align-items: flex-start;
+    width: 75%;  
 }
 
 #portfolioMainTitle, #portfolioSlogan {
